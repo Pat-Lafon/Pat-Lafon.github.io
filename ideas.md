@@ -2,7 +2,11 @@
 
 ## C/C++ Sanitizers
 
-It's practically criminal to teach a student who has never had to physically deal with memory before C/C++ without mentioning the `-fsanitize` flags in gcc/clang
+It's practically criminal to teach a student C/C++ who has never had to physically deal with memory before without mentioning the `-fsanitize` flags in gcc/clang.
+
+The flags I currently use:
+
+`-Wall -Werror -Wextra -Wthread-safety -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer`
 
 ## Git aliases
 
